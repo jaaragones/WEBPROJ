@@ -1,0 +1,33 @@
+h1 {
+    color:rgb(65, 196, 236);
+    font-size: 70px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    background-color:black;
+    text-align: center;
+}
+
+h2{
+    color: rgba(108, 139, 238, 0.904);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin-bottom: 2px;
+    margin-top: 25px;
+}
+
+p{
+    color: rgba(3, 234, 241, 0.678);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+dt{
+    color: rgba(127, 255, 212, 0.897);
+    font-size:35px;
+    margin-bottom: 5px;
+}
+
+dd{
+    color: rgb(255, 140, 140);
+    font-size: 30px;
+}
