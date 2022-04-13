@@ -9,6 +9,9 @@
         <div class="header">
         <h1>Contact Me📱</h1>
         </div>
+        <button 
+            onclick="window.location.href='https://jaaragones.github.io/WEBPROJ/Ajooong.html';" style="margin-bottom: 10px;"> Home
+        </button>
         <div id="Contact_me" class="Contact">
             <h2>Fill up form</h2>
             <br>
@@ -37,16 +40,23 @@
                 <label for="PostCode" style="padding-left:20px;">Postal Code :</label>
                 <input type="text" id="PostCode" name="PostCode" pattern="[A-Za-z]\d[A-Za-z]\d[A-Za-z]\d"  maxlength="6" required>
                 <br> <br/>
-                <label for="About">Its About . . . </label>
+                <label for="About" style="font-size: 35px;font-weight: bolder;" >Its About . . . </label>
                 <br>
-                <input type="radio" name="radio" id="Ques" onclick="javascript.check1();">
+                <input type="radio" name="radio" id="Ques">
                 <label for="Question">Question</label>
-                <input type="radio" name="radio" id="comment" onclick="javascript.check1();">
+                <input type="radio" name="radio" id="comment">
                 <label for="Comment">Question</label>
-                <input type="radio" name="radio" id="hiring" onclick="javascript.check1();">
+                <input type="radio" name="radio" id="hiring">
                 <label for="hiring">Hiring</label>
-                <br> <br/>
-                <input type="submit" value="Submit">
+                <br><br/>
+                <label for="HourRate" style="visibility: visible;">Hour Rate: </label>
+                <input type="text" id="HourRate" name="HourRate"><br>
+                <br>
+                <label for="Message" style="padding-left: 10px;">Message: </label>
+                <br>
+                <textarea id="Message" name="Message" style="height:150px; width:450px;"></textarea>
+                <br>
+                <input type="submit" value="Submit✈️" style="font-size: 25px;">
             </form>
         </div>
     </body>
