@@ -1,33 +1,54 @@
-h1 {
-    color:rgb(65, 196, 236);
-    font-size: 70px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 0px;
-    background-color:black;
+.Header{
+    margin-top: 150px;
+    background-color: #552e0f;
+}
+.header {
+    background:rgba(151, 75, 39, 0.9);
+    position: fixed;
+    top: 0;
+    height: 150px;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.header h1{
     text-align: center;
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 80px;
+    margin: 0 auto;
 }
 
 h2{
-    color: rgba(108, 139, 238, 0.904);
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
-    margin-bottom: 2px;
-    margin-top: 25px;
+    color: rgba(23, 24, 26, 0.904);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 55px;
+    margin-bottom: 0px;
+    margin-top: 40px;
 }
 
 p{
-    color: rgba(3, 234, 241, 0.678);
+    color: rgba(92, 240, 245, 0.678);
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 40px;
 }
 
 dt{
-    color: rgba(127, 255, 212, 0.897);
+    color: rgba(160, 167, 164, 0.897);
     font-size:35px;
     margin-bottom: 5px;
+    margin-top: 0px;
 }
 
 dd{
-    color: rgb(255, 140, 140);
+    color: rgb(231, 58, 58);
     font-size: 30px;
+    margin-bottom: 20px;
+}
+
+a{
+    color: #202020;
 }
