@@ -61,6 +61,22 @@ img{
     margin-top: 20px;
 }
 
-Contact_me.label{
-    font-size: 50px;
+.Contact{
+    background-color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    border: #202020;
+    border-width: 30px ;
+    border-style: double;
+    height: 300px;
+
+}
+
+label{
+    font-size: 20px;
+    color: #252525;
+    padding-right: 10px;
+}
+
+input{
 }
