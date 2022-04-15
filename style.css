@@ -49,11 +49,12 @@ h2{
 }
 
 p{
-    color: rgba(92, 240, 245, 0.678);
-    font-size: 30px;
+    color: aliceblue;
+    font-size: 27px;
     margin-bottom: 5px;
     margin-top: 5px;
     margin-left: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 dt{
